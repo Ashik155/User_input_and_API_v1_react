@@ -8,3 +8,7 @@ Steps:
     * 2 Components as of now : searchbar and App
     * Search bar is class based componenent as we want to use state.
     * Added some semantic ui styling things....
+
+
+4. Making Controlled component by the use of State instead of using callbacks for conventional props like onChange, onSubmit and so ...  
+
