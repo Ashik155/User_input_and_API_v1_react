@@ -4,7 +4,6 @@ import React from 'react';
 
 class SearchBar extends React.Component{
 
-
     //using modern Js it won;t throw error so this below functions works totally fine. 
     onSubmitUsingModernes15JS = (e)=> {
         e.preventDefault();

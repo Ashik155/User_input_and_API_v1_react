@@ -53,3 +53,32 @@ Constructor() {
 
 6. How to communicate From children to Parent ?
     *   First make the Parent Class based
+
+
+7.Rendering A list 
+When Rendering a list make sure that react always tries to render only added or updated list record, it can not re rendered whole list again, it only render the added or changes list record. that’s why it is important to use key props in the returning list record element.
+
+Using key we are just making the component unique so react can work more effeciently.
+
+8. Grid Css System for UI :
+
+When we need to access the DOM using react we need to use ref instead of using plain JS Dom access method using document object.
+
+How to use Ref ? in react ? 
+
+    *   First it gives access to single DOM element 
+    *   we Need to create it in the constructor, we have to pass it to instance var, and have to pass to a particular jsx as props. USing React.createRef mnethod in  condtructor 
+
+
+    we caannot just able to access data of element in componentDidMount Mehtod 
+    becuase there are still some outside of operations are available to do and when we try to figure out the property of that data via consoling it out we eneded up with nothing or something empty. 
+
+    how to solve this issue then... ?
+    We need to use some callbacks for this..
+
+    use vanila js
+     object.eveneListener('load', e=>{
+       // code goes here
+    })
+that way you can access the data
+
